@@ -15,15 +15,15 @@ class qwerty{
     }
     function Num1(){
         if($n_x < 3){
-            echo $this->n_x *$this->n_x + 3*$this->n_x + 9;
+            echo "$this->n_x *$this->n_x + 3*$this->n_x + 9";
         }
         else{
-            echo $this->n_x *$this->n_x *$this->n_x + 6;
+            echo "$this->n_x *$this->n_x *$this->n_x + 6";
         }
     }
     function Num2(){
         
-        echo $this->n_a * $this->n_b + $this->n_c;
+        echo "$this->n_a * $this->n_b + $this->n_c";
     }
 }
 $nums = new qwerty($n_a,$n_b,$n_c,$n_x);
